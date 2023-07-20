@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    
+}
+
+h1{
+    text-align: center;
+    letter-spacing:0.5rem;
+    word-spacing: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+div{
+    background-color: blue;
+    text-align:center;
+}
+.parrafo{
+    line-height: 2rem;
+
+}
+

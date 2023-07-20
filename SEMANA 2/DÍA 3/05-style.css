@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    
+}
+
+.card {
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 1px solid blue;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: blue;
+    color: #fff;
+    transition: all 1s linear 0s;
+}
+
+.card:hover {
+    border: 1px solid blue;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(5, 58, 71);
+    color: #fff;
+}

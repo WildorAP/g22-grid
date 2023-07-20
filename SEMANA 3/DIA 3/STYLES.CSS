@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    
+}
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+.grid-container {
+    height: 100vh;
+    display: grid;
+    padding: 20px;
+    border: solid;
+
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 100px 100px auto 100px;
+
+    grid-template-areas:
+    "header header header"
+    "nav    nav nav"
+    "aside section  section"
+    "footer footer footer"
+    ;
+}
+
+.header {
+    background-color: bisque;
+    grid-area: header;
+}
+
+.nav {
+    background-color: azure;
+    grid-area: nav;
+}
+
+.aside {
+    background-color: blueviolet;
+    grid-area: aside;
+}
+
+.section {
+    background-color: burlywood;
+    grid-area: section;
+}
+
+.footer {
+    background-color: crimson;
+    grid-area: footer;
+}

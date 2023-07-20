@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    
+}
+
+header{
+    padding: 1rem;
+    background-color: bisque;
+    
+}
+a {
+    text-decoration: none;
+}
+
+nav a:nth-child(2){
+    margin-left: 10rem;
+}
+
+nav{
+    text-align: center;
+}

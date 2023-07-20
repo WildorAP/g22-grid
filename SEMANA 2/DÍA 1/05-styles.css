@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    
+}
+main{
+    border: 1px solid red;
+    
+    min-height: 100vh;
+    background-color: aqua;
+    background-image: url(textura.jpg);
+}
+

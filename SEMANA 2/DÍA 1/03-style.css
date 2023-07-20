@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    padding: 1rem;
+    background-color: #eee;
+    
+}
+
+main{
+    background-color: aquamarine;
+    padding-top: 5rem;
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-bottom: 1rem;
+}
+section{
+    padding: 1.5rem;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+

@@ -1,0 +1,37 @@
+/*Estilos por tag*/
+h1 {
+    color: crimson;
+}
+p{
+    color: blue;
+}
+span{
+    color:violet;
+}
+/* selectores por clases */
+.nombre{
+    color: green;
+    border: 5px solid red;
+}
+
+.secundario{
+    color:blueviolet
+}
+/*Selectores por ID */
+#prueba{
+    color: chocolate;
+}
+/*selector universal */
+*{
+    color: rgb(251, 255, 4);
+
+/* selector por atributi*/
+}
+input[type="text"]{
+    border: solid orange 3px;
+}
+
+input[type="number"]{
+    border: solid rgb(19, 219, 69) 3px;
+}
+/*selector hermano adyacente*/

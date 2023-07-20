@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    
+}
+h1{
+    color:brown;
+}
+h2{
+    color: #888;
+}
+h3{
+    color: rgb(0, 255, 150);
+}
+h4{
+    color:hsl(7, 65%, 10%)
+}
+.noticias{
+    background-color: #bbb;
+    width:20rem;
+    height: 10rem;
+    overflow: auto;
+/* overflow: hidden; */
+/*  */
+}
+

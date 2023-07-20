@@ -1,0 +1,27 @@
+li:nth-child(even){
+    border: 1px solid brown;
+   border-radius: 4px;
+   
+}
+li:nth-child(odd){
+    border: 1px solid rgb(30, 92, 185);
+   border-radius: 4px;
+   
+}
+table{
+    border-collapse: collapse;
+}
+table>tbody>tr:nth-child(even){
+    background-color: beige;
+    
+}
+tr>td, tr>th{
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+tr>th{
+    background-color: aqua;
+    color: white;
+    padding-top: 16px;
+    padding-top: 16px;
+}

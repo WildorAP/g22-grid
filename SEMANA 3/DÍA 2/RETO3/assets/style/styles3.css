@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    
+}
+:root{
+    --color-soft1-orange: hsl(35, 77%, 62%);
+
+    --color-soft2-red: hsl(5, 85%, 63%);
+    
+}
+section{
+    border: 1px solid blue;
+}
+main{
+    border: 1px solid blueviolet;
+    
+    max-width: 1440px;
+}
+
+
+.card1{
+    display: flex;
+}
+.card11{
+    display: flex;
+}
+.img1{
+    width: 80%;
+}
+
+.card2{
+    display: flex;
+}

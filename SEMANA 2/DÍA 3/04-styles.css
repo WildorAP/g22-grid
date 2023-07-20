@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    
+}
+
+.card{
+    width: 300px;
+    height: 700px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    
+
+}
+/* .card2{
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+
+
+
+} */
+
+.edificio{
+    width: 300px;
+    height: 5 0%;
+    overflow: auto;
+}
+
+.card:hover{
+    width: 300px;
+    height: 700px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: #888 0px 0px 20px;
+
+    border-radius: 15px;}
+
+.letra1, .letra2{
+    display: none;
+}
+
+.card:hover .letra1,.card:hover .letra2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    
+    
+    
+    z-index: 2;
+    display: block;
+
+}
+.card:hover .edificio{
+    filter: brightness(0.7);
+}
